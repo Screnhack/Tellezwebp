@@ -14,7 +14,7 @@ class Articulo extends Model {
     /* campos que seran  traidos de la base de datos para generar la interaccion */
     protected $fillable = ['nombre', 'descripcion', 'categoria_id', 'marca_id'];
 
-    /* funciones de relaciones en la base de datos para facilitar el acceso a las diferentes tablas */
+    /* funciones de relaciones en la base de datos para facilitar el acceso a las diferentes tablads */
 
     public function categoria() {
         return $this->belongsTo('App\Categoria');
