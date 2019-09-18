@@ -1,0 +1,106 @@
+@font-face{
+	font-family: 'GandhiSans-Bold';
+	src: url(../fuentes/GandhiSans-Bold.otf) format('OpenType');
+}
+
+body{
+	margin:0;
+	padding: 0;
+	background: url("../images/fondo.jpg");
+	background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    font-family: 'GandhiSans-Bold';
+
+}
+.loginbox{
+	width: 320px;
+	height: 420px;
+	background: rgb(255,255,255, 0.9);
+	color: rgb(57,51,118);
+	top: 50%;
+	left:50%;
+	border-radius: 30px;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+
+}
+
+.avatar{
+	width: 30%;
+	left: calc(50% - 50px);
+	border-radius: 50%;
+	position: absolute;
+	top:-50px;
+	background: none;
+}
+
+.logo{
+	margin: 5px;
+	padding: 0px 0px 20px;
+	left: calc(50% - 60px);
+	position: relative;
+
+}
+
+.loginbox p{
+	margin: 0px;
+	padding: 0px;
+	font-weight: bold;
+
+}
+
+.loginbox input{
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]{
+	border: none;
+	border-bottom: 1px solid #000066;
+	background: transparent;
+	outline: none;
+	height: 40px;
+	color : rgb(57,51,118);
+	font-size: 16px;
+	font-family: 'GandhiSans-Bold';
+
+}
+
+.loginbox input[type="submit"]{
+	border: none;
+	outline: none;
+	height: 40px;
+	background: rgb(251,173,21);
+	color: rgb(57,51,118);
+	font-size: 18px;
+	border-radius: 20px;
+	font-family: 'GandhiSans-Bold';
+}
+
+.loginbox input[type="submit"]:hover
+{
+	cursor: pointer;
+	background: rgb(57,51,118);
+	color: rgb(251,173,21);
+}
+
+.loginbox a{
+	text-decoration: none;
+	font-size: 15px;
+	line-height: 20px;
+	color: rgb(57,51,118);
+}
+
+.loginbox a:hover{
+	color: rgb(251,173,21);
+}
+
+
+
